@@ -1,5 +1,5 @@
 const configuredApiBase = `${import.meta.env.VITE_API_URL || ""}`.trim();
-const API_BASE = configuredApiBase || (import.meta.env.DEV ? "http://localhost:4000" : "");
+const API_BASE = configuredApiBase || (import.meta.env.DEV ? "https://sorting-visualizer-ai-backend.onrender.com" : "");
 
 export const AUTH_TOKEN_KEY = "sorting_visualizer_auth_token";
 
